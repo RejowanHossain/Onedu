@@ -104,7 +104,7 @@ footer area
      ::placeholder {
         font-family: 'Jost', sans-serif;
         color: #6b6a75;
-        font-size: 14px;
+        font-size: 18px;
     }
     
     a,
@@ -147,6 +147,7 @@ footer area
     h1 {
         font-size: 60px;
         line-height: 90px;
+        font-weight: 700;
     }
     
     h2 {
@@ -195,8 +196,21 @@ footer area
         padding: 17px 25px;
         background: #f14d5d;
         display: inline-block;
-        color: #fff;
         border-radius: 5px;
+    }
+    
+    .button a {
+        color: #ffffff;
+        font-weight: 500;
+        text-transform: capitalize;
+    }
+    
+    .button a:hover {
+        color: #fff;
+    }
+    
+    .button svg {
+        margin-left: 4px;
     }
     /*-------------------------------------------------------------------------------------
     topbar area
@@ -254,7 +268,7 @@ footer area
     
     .main-menu ul li {
         display: inline-block;
-        margin-left: 38px;
+        margin-left: 36px;
         position: relative;
     }
     
@@ -336,23 +350,8 @@ footer area
         width: 15px;
     }
     
-    .header-cta ul li {
-        display: inline-block;
-    }
-    
     .header-cta ul .button {
         margin-right: 24px;
-    }
-    
-    .header-cta ul .button a {
-        padding: 0px;
-        text-transform: capitalize;
-        color: #ffffff;
-        font-weight: 500;
-    }
-    
-    .header-cta ul .button a:hover {
-        color: #ffffff;
     }
     
     .header-cta ul .user-cta svg {
@@ -376,6 +375,13 @@ footer area
     
     .hero {
         padding: 160px 0px 125px;
+        /* background: url(../images/hero-bg.png); */
+        background: red;
+    }
+    
+    .left-content h4 {
+        font-size: 18px;
+        font-weight: 400;
     }
     
     .left-content h2 {
@@ -384,71 +390,53 @@ footer area
         margin-bottom: 20px;
     }
     
-    .left-content h4 {
-        margin-bottom: 20px;
+    .hero-input {
+        margin-top: 60px;
     }
     
-    .hero-image {
-        display: flex;
-        justify-content: flex-end;
+    .hero-input form {
+        /* position: relative;
+        background: #000; */
+        position: relative;
+        background: rgb(199, 157, 157);
+        height: 94px;
+        border-radius: 5px;
+        width: 87%;
+    }
+    
+    .hero-input form input {
+        /* width: 88%;
+        border-radius: 5px;
+        padding: 35px 50px;
+        border: none;
+        background: #ecc3c3; */
+        width: 70%;
+        border-radius: 5px;
+        padding: 16px 50px;
+        border: none;
+        background: rgb(199, 157, 157);
+        margin-top: 20px;
+    }
+    
+    .hero-input form .form-search-icon {
+        position: absolute;
+        top: 38%;
+        left: 4%;
+        color: #6b6a75;
+    }
+    
+    .hero-input form .position-btn {
+        /* position: absolute;
+        right: 15%;
+        top: 20%; */
+        position: absolute;
+        right: 3%;
+        top: 20%;
     }
     
     .right-content {
-        width: 480px;
+        margin-left: -117px;
     }
-    
-    .right-content img {
-        width: 100%;
-        margin-top: -65px;
-        position: relative;
-        animation: MoveUpDown 5s linear infinite;
-    }
-    
-    @keyframes MoveUpDown {
-        0% {
-            transform: translateY(15px);
-        }
-        50% {
-            transform: translateY(-15px);
-        }
-        100% {
-            transform: translateY(15px);
-        }
-    }
-    
-    .links {
-        margin-top: 30px;
-    }
-    /* .button span {
-        position: relative;
-        z-index: 1;
-    } */
-    /* .button::before {
-        position: absolute;
-        content: '';
-        left: 55%;
-        top: 0px;
-        width: 100%;
-        height: 100%;
-        z-index: 1;
-        opacity: 1;
-        background-color: #0f1d46;
-        -webkit-transition: all 0.4s;
-        -moz-transition: all 0.4s;
-        -o-transition: all 0.4s;
-        transition: .5s linear all;
-        transform: skewX( -30deg);
-    }
-     */
-    
-    .button:hover {
-        color: #fff;
-    }
-    /* .button:hover::before {
-        left: 0%;
-        -webkit-transform: scale(1, 1);
-        transform: scale(1, 1);
-    } */
     /*-------------------------------------------------------------------------------------
     showcase-area
 ---------------------------------------------------------------------------------------*/
