@@ -4,6 +4,7 @@ Project     :  Onedu - Online Education Template
     /*------------------------------------------------------------------------------------
 [Table of contents]
 default css
+topbar area
 header area
 hero area
 showcase area
@@ -19,7 +20,7 @@ footer area
     default css
 ---------------------------------------------------------------------------------------*/
     
-    @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&family=Montserrat:wght@300;400;500&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
     /*-------------------------------------------------------------------------------------
     font-face css
 ---------------------------------------------------------------------------------------*/
@@ -50,16 +51,12 @@ footer area
     
     html,
     body {
-        width: 100%;
-        height: 100%;
         margin: 0;
         padding: 0;
     }
     
     body {
-        font-family: 'Josefin Sans', sans-serif;
-        font-weight: 400;
-        color: #0f1d46;
+        font-family: 'Jost', sans-serif;
     }
     
     ul {
@@ -69,12 +66,12 @@ footer area
     }
     
     a,
-    a:visited,
     a:focus,
     a:active,
     a:hover {
         text-decoration: none;
         outline: none;
+        color: #2878eb;
     }
     
     input:focus,
@@ -94,19 +91,19 @@ footer area
     
      ::-webkit-input-placeholder {
         /* Edge */
-        font-family: 'Montserrat', sans-serif;
-        color: #fff;
+        font-family: 'Jost', sans-serif;
+        color: #6b6a75;
     }
     
      :-ms-input-placeholder {
         /* Internet Explorer 10-11 */
-        font-family: 'Montserrat', sans-serif;
-        color: #fff;
+        font-family: 'Jost', sans-serif;
+        color: #6b6a75;
     }
     
      ::placeholder {
-        font-family: 'Montserrat', sans-serif;
-        color: #fff;
+        font-family: 'Jost', sans-serif;
+        color: #6b6a75;
         font-size: 14px;
     }
     
@@ -125,10 +122,11 @@ footer area
     }
     
     a {
-        color: #0f1d46;
-        font-size: 18px;
-        font-family: 'Josefin Sans', sans-serif;
+        color: #120f2d;
+        font-size: 16px;
+        font-family: 'Jost', sans-serif;
         display: block;
+        font-weight: 400;
     }
     
     h1,
@@ -147,8 +145,8 @@ footer area
     }
     
     h1 {
-        font-size: 70px;
-        line-height: 80px;
+        font-size: 60px;
+        line-height: 90px;
     }
     
     h2 {
@@ -177,11 +175,12 @@ footer area
     }
     
     p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 16px;
-        line-height: 30px;
+        font-family: 'Jost', sans-serif;
+        font-size: 18px;
+        line-height: 32px;
         font-weight: 400;
-        color: #3c6382
+        color: #6b6a75;
+        margin-bottom: 0;
     }
     
      ::-webkit-scrollbar {
@@ -191,42 +190,87 @@ footer area
      ::-webkit-scrollbar-thumb {
         background: #1980FA;
     }
+    
+    .button {
+        padding: 17px 25px;
+        background: #f14d5d;
+        display: inline-block;
+        color: #fff;
+        border-radius: 5px;
+    }
+    /*-------------------------------------------------------------------------------------
+    topbar area
+---------------------------------------------------------------------------------------*/
+    
+    .top-bar {
+        background: #120f2d;
+        padding: 17px 0 17px 0;
+    }
+    
+    .top-bar-right p,
+    .top-bar-left p {
+        font-size: 16px;
+        color: #ffffff;
+        line-height: 17px;
+    }
+    
+    .top-bar-right p span {
+        color: #f14e5e;
+        text-decoration: underline;
+    }
+    
+    .top-bar-left p .span-blue {
+        color: #2878eb;
+    }
+    
+    .top-bar-left p span {
+        color: #f14e5e;
+        font-weight: 500;
+    }
     /*-------------------------------------------------------------------------------------
     header area
 ---------------------------------------------------------------------------------------*/
     
     .header {
-        position: fixed;
-        width: 100%;
-        z-index: 9999;
-        transition: .5s;
-    }
-    
-    .site-logo {
-        width: 100px;
+        background: rgb(209, 155, 155);
     }
     
     .site-logo img {
         width: 100%;
     }
     
-    .main-menu ul li {
-        display: inline-block;
-        margin-left: 30px;
+    .category-dropdown ul li {
         position: relative;
-        z-index: 99999;
     }
     
-    .main-menu ul li a {
+    .category-dropdown ul li ul.submenu {
+        position: absolute;
+        box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
+        width: 200px;
         padding: 20px 0;
+        left: 0;
+        top: 110%;
+    }
+    
+    .main-menu ul li {
+        display: inline-block;
+        margin-left: 38px;
+        position: relative;
+    }
+    
+    .main-menu ul li a,
+    .category-dropdown ul li a {
+        padding: 40px 0;
         text-transform: capitalize;
     }
     
-    .main-menu ul li a:hover {
-        color: #0f1d46;
+    .main-menu ul li:hover>a,
+    .category-dropdown ul li:hover>a {
+        color: #2878eb;
     }
     
-    .main-menu ul li ul.submenu {
+    .main-menu ul li ul.submenu,
+    .category-dropdown ul li ul.submenu {
         position: absolute;
         background: #ffffff;
         width: 200px;
@@ -240,27 +284,36 @@ footer area
         -ms-transition: all 0.4s ease-out 0s;
         -o-transition: all 0.4s ease-out 0s;
         transition: all 0.4s ease-out 0s;
-        border-top: 5px solid #1980FA;
+        border-top: 5px solid #2878eb;
         box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
         z-index: 99;
     }
     
-    .main-menu ul li ul.submenu li {
+    .main-menu ul li ul.submenu li,
+    .category-dropdown ul li ul.submenu {
         margin: 0;
         display: block;
     }
     
-    .main-menu ul li ul.submenu li a {
-        color: #0f1d46;
+    .main-menu ul li ul.submenu li a,
+    .category-dropdown ul li ul.submenu li a {
         padding: 7px 30px;
     }
     
-    .main-menu ul li ul.submenu li a::before {
+    .main-menu ul li:hover ul.submenu,
+    .category-dropdown ul li:hover ul.submenu {
+        opacity: 1;
+        visibility: visible;
+        top: 100%;
+    }
+    
+    .main-menu ul li ul.submenu li a::before,
+    .category-dropdown ul li ul.submenu li a::before {
         position: absolute;
         content: "";
         width: 0;
         height: 2px;
-        background: #1980FA;
+        background: #2878eb;
         position: absolute;
         left: 27px;
         top: 48%;
@@ -272,22 +325,48 @@ footer area
         transition: all 300ms linear 0s;
     }
     
-    .main-menu ul li ul.submenu li a:hover {
+    .main-menu ul li ul.submenu li a:hover,
+    .category-dropdown ul li ul.submenu li a:hover {
         padding-left: 50px;
     }
     
-    .main-menu ul li ul.submenu li:hover a:before {
+    .main-menu ul li ul.submenu li:hover a:before,
+    .category-dropdown ul li ul.submenu li:hover a::before {
         opacity: 1;
         width: 15px;
     }
     
-    .main-menu ul li:hover ul.submenu {
-        opacity: 1;
-        visibility: visible;
-        top: 96%;
+    .header-cta ul li {
+        display: inline-block;
     }
     
-    .black {
+    .header-cta ul .button {
+        margin-right: 24px;
+    }
+    
+    .header-cta ul .button a {
+        padding: 0px;
+        text-transform: capitalize;
+        color: #ffffff;
+        font-weight: 500;
+    }
+    
+    .header-cta ul .button a:hover {
+        color: #ffffff;
+    }
+    
+    .header-cta ul .user-cta svg {
+        border: 1px solid #2878eb;
+        padding: 9px;
+        height: 35px;
+        width: 35px;
+        font-size: 16px;
+        border-radius: 50%;
+        color: #2878eb;
+    }
+    
+    */
+    /* .black {
         box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
         background: #fff;
     }
@@ -340,24 +419,11 @@ footer area
     .links {
         margin-top: 30px;
     }
-    
-    .button {
-        padding: 18px 50px;
-        background: #1980FA;
-        display: inline-block;
-        color: #fff;
-        font-weight: 700;
-        position: relative;
-        overflow: hidden;
-        border: none;
-    }
-    
-    .button span {
+    /* .button span {
         position: relative;
         z-index: 1;
-    }
-    
-    .button::before {
+    } */
+    /* .button::before {
         position: absolute;
         content: '';
         left: 55%;
@@ -373,16 +439,16 @@ footer area
         transition: .5s linear all;
         transform: skewX( -30deg);
     }
+     */
     
     .button:hover {
         color: #fff;
     }
-    
-    .button:hover::before {
+    /* .button:hover::before {
         left: 0%;
         -webkit-transform: scale(1, 1);
         transform: scale(1, 1);
-    }
+    } */
     /*-------------------------------------------------------------------------------------
     showcase-area
 ---------------------------------------------------------------------------------------*/
