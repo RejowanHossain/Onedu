@@ -131,14 +131,14 @@
     /*---------------------------------------------------
         sticky header
     ----------------------------------------------------*/
-    $(window).on('scroll', function() {
-        var scroll = $(window).scrollTop();
-        if (scroll < 100) {
-            $(".mainmenu").removeClass("sticky");
-        } else {
-            $(".mainmenu").addClass("sticky");
-        }
-    });
+    // $(window).on('scroll', function() {
+    //     var scroll = $(window).scrollTop();
+    //     if (scroll < 100) {
+    //         $(".mainmenu").removeClass("sticky");
+    //     } else {
+    //         $(".mainmenu").addClass("sticky");
+    //     }
+    // });
 
 
     /*---------------------------------------------------

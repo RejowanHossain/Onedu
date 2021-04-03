@@ -244,10 +244,10 @@ footer area
     /*-------------------------------------------------------------------------------------
     header area
 ---------------------------------------------------------------------------------------*/
-    
-    .header {
+    /* .header {
         background: rgb(209, 155, 155);
     }
+     */
     
     .site-logo img {
         width: 100%;
@@ -298,7 +298,7 @@ footer area
         -ms-transition: all 0.4s ease-out 0s;
         -o-transition: all 0.4s ease-out 0s;
         transition: all 0.4s ease-out 0s;
-        border-top: 5px solid #2878eb;
+        border-top: 5px solid #120f2d;
         box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
         z-index: 99;
     }
@@ -363,31 +363,38 @@ footer area
         border-radius: 50%;
         color: #2878eb;
     }
-    
-    */
     /* .black {
         box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
         background: #fff;
-    }
+    } */
     /*-------------------------------------------------------------------------------------
     hero area
 ---------------------------------------------------------------------------------------*/
     
     .hero {
-        padding: 160px 0px 125px;
-        /* background: url(../images/hero-bg.png); */
-        background: red;
+        padding: 75px 0px 75px 0;
+        background: url(../images/hero-bg.png) no-repeat center center;
+        background-size: cover;
+        /* position: relative;
+        background: #1980FA; */
+    }
+    
+    .left-content {
+        margin-top: 115px;
     }
     
     .left-content h4 {
         font-size: 18px;
         font-weight: 400;
+        color: #fff;
     }
     
-    .left-content h2 {
-        font-weight: 700;
-        font-size: 57px;
-        margin-bottom: 20px;
+    .left-content h1 {
+        color: #fff;
+    }
+    
+    .left-content p {
+        color: #fff;
     }
     
     .hero-input {
@@ -398,7 +405,7 @@ footer area
         /* position: relative;
         background: #000; */
         position: relative;
-        background: rgb(199, 157, 157);
+        background: #fff;
         height: 94px;
         border-radius: 5px;
         width: 87%;
@@ -414,7 +421,7 @@ footer area
         border-radius: 5px;
         padding: 16px 50px;
         border: none;
-        background: rgb(199, 157, 157);
+        background: #fff;
         margin-top: 20px;
     }
     
