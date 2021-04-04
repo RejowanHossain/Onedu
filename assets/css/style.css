@@ -24,7 +24,7 @@ footer area
     default css
 ---------------------------------------------------------------------------------------*/
 
-@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Poppins&display=swap');
 
 /*-------------------------------------------------------------------------------------
     font-face css
@@ -695,7 +695,7 @@ button.slick-arrow svg {
 .filter {
     background: url(../images/category-bg.png) no-repeat center center;
     background-size: cover;
-    padding: 130px 0 130px 0;
+    padding: 130px 0 210px 0;
     background-position: right;
 }
 
@@ -725,8 +725,8 @@ button.slick-arrow svg {
     width: 30px;
     background: #1980FA;
     left: 44%;
-    transform: rotate(43deg);
-    bottom: 20%;
+    transform: rotate(44deg);
+    bottom: 21%;
 }
 
 .single-filter-btn img {
@@ -767,12 +767,80 @@ button.slick-arrow svg {
     display: inline-block;
     position: absolute;
     left: 0;
-    margin-top: 20px;
+    margin-top: 109px;
     height: 100px;
 }
 
 .filter-bottom-shape img {
     height: 100%;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    testimonial area
+---------------------------------------------------------------------------------------*/
+
+.testimonial {
+    padding: 130px 0 130px 0;
+}
+
+.testimonial-title h2 {
+    margin-bottom: 0;
+    margin-top: 70px;
+}
+
+.single-testimonial {
+    box-shadow: 0px 25px 70px 0px rgba(152, 152, 153, 0.25);
+    padding: 41px 35px;
+    border-radius: 5px;
+}
+
+.single-testimonial .author-quote {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.single-testimonial img {
+    margin-bottom: 20px;
+}
+
+.single-testimonial .author-title {
+    font-weight: 500;
+    font-size: 20px;
+    color: #120f2d;
+}
+
+.author-designation .author-designation {
+    font-size: 16px;
+}
+
+.single-testimonial ul {
+    margin-top: 25px;
+}
+
+.single-testimonial ul li {
+    display: inline-block;
+}
+
+.single-testimonial ul li svg {
+    color: #f2c617;
+}
+
+.active-testi {
+    background: url(../images/testimonial-active-bg.png);
+    border-radius: 5px;
+}
+
+
+/* .author-testi-bg {
+    background: url(../images/testimonial-active-bg2.png);
+} */
+
+.active-testi .author-quote,
+.active-testi .author-title,
+.active-testi .author-designation {
+    color: #fff;
 }
 
 
