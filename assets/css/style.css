@@ -513,7 +513,8 @@ p {
     font-size: 36px;
     font-weight: 400;
     color: #120f2d;
-    margin-bottom: 45px;
+    margin-bottom: 42px;
+    line-height: 52px;
 }
 
 .single-course-container {
@@ -630,6 +631,60 @@ button.slick-arrow svg {
     position: absolute;
     left: 47%;
     bottom: -20%;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    about-area
+---------------------------------------------------------------------------------------*/
+
+.about {
+    padding: 80px 0 80px 0;
+    background: url(../images/about-bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.abt-img {
+    position: relative;
+}
+
+.shape-round {
+    display: inline-block;
+    position: absolute;
+    left: 66%;
+    bottom: 83%;
+    z-index: -1;
+}
+
+.shape-rect {
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    left: -47px;
+    z-index: -1;
+}
+
+.abt-bottom {
+    margin-top: 55px;
+}
+
+.single-abt {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.abt-icon {
+    margin-top: 5px;
+}
+
+.abt-detail {
+    margin-left: 30px;
+}
+
+.abt-detail span {
+    font-size: 18px;
+    color: #120f2d;
+    font-weight: 500;
 }
 
 
