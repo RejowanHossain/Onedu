@@ -85,14 +85,16 @@
         /*---------------------------------------------------
             testimonial carousel
         ----------------------------------------------------*/
-        $('.testimonial-slider').slick({
+        $('.filter-slider').slick({
             dots: false,
             infinite: true,
-            arrows: false,
-            autoplay: true,
+            arrows: true,
+            prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-arrow-left' aria-hidden='true'></i></button>",
+            nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-arrow-right' aria-hidden='true'></i></button>",
+            autoplay: false,
             autoplaySpeed: 2000,
             speed: 500,
-            slidesToShow: 2,
+            slidesToShow: 3,
             slidesToScroll: 1,
             responsive: [{
                     breakpoint: 1024,
@@ -100,19 +102,18 @@
                         slidesToShow: 3,
                         slidesToScroll: 3,
                         infinite: true,
-                        dots: true
+                        dots: false
                     }
                 },
                 {
                     breakpoint: 950,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1,
                         infinite: true,
                         dots: false
                     }
                 },
-
                 {
                     breakpoint: 700,
                     settings: {

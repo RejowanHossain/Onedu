@@ -513,7 +513,7 @@ p {
     font-size: 36px;
     font-weight: 400;
     color: #120f2d;
-    margin-bottom: 42px;
+    margin-bottom: 45px;
     line-height: 52px;
 }
 
@@ -641,7 +641,7 @@ button.slick-arrow svg {
 .about {
     padding: 80px 0 80px 0;
     background: url(../images/about-bg.png) no-repeat center center;
-    background-size: cover;
+    background-size: contain;
 }
 
 .abt-img {
@@ -685,6 +685,86 @@ button.slick-arrow svg {
     font-size: 18px;
     color: #120f2d;
     font-weight: 500;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    course-area
+---------------------------------------------------------------------------------------*/
+
+.filter {
+    background: url(../images/category-bg.png) no-repeat center center;
+    background-size: cover;
+    padding: 130px 0 130px 0;
+}
+
+.filter-slider {
+    position: relative;
+}
+
+.filter-shape {
+    position: absolute;
+    display: inline-block;
+    right: 3%;
+}
+
+.single-filter-btn {
+    padding: 35px 45px;
+    background: #fff;
+    box-shadow: 0px 15px 20px 0px rgba(172, 172, 172, 0.15);
+    border-radius: 5px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.single-filter-btn:hover {
+    cursor: pointer;
+}
+
+.single-filter-btn img {
+    margin-bottom: 25px;
+}
+
+.single-filter-btn p {
+    color: #120f2d;
+    font-weight: 500;
+}
+
+.single-filter-btn span {
+    color: #120f2d;
+    font-size: 16px;
+}
+
+.active {
+    background: #1980FA;
+}
+
+.active span,
+.active p {
+    color: #fff;
+}
+
+.position-shape {
+    position: relative;
+}
+
+.filter-top-shape {
+    display: inline-block;
+    position: absolute;
+    left: 7%;
+    margin-top: -39px;
+}
+
+.filter-bottom-shape {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    margin-top: 20px;
+    height: 100px;
+}
+
+.filter-bottom-shape img {
+    height: 100%;
 }
 
 
