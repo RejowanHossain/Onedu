@@ -31,13 +31,15 @@
 
 
         /*---------------------------------------------------
-            product carousel
+            course slider
         ----------------------------------------------------*/
-        $('.product-slider').slick({
+        $('.course-slider').slick({
             dots: false,
             infinite: true,
-            arrows: false,
-            autoplay: true,
+            arrows: true,
+            prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-arrow-left' aria-hidden='true'></i></button>",
+            nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-arrow-right' aria-hidden='true'></i></button>",
+            autoplay: false,
             autoplaySpeed: 2000,
             speed: 500,
             slidesToShow: 3,
