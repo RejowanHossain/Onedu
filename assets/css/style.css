@@ -696,6 +696,7 @@ button.slick-arrow svg {
     background: url(../images/category-bg.png) no-repeat center center;
     background-size: cover;
     padding: 130px 0 130px 0;
+    background-position: right;
 }
 
 .filter-slider {
@@ -717,8 +718,15 @@ button.slick-arrow svg {
     margin-bottom: 60px;
 }
 
-.single-filter-btn:hover {
-    cursor: pointer;
+.position-shape:before {
+    position: absolute;
+    content: '';
+    height: 30px;
+    width: 30px;
+    background: #1980FA;
+    left: 44%;
+    transform: rotate(43deg);
+    bottom: 20%;
 }
 
 .single-filter-btn img {
