@@ -388,11 +388,10 @@ p {
 ---------------------------------------------------------------------------------------*/
 
 .hero {
-    padding: 75px 0px 75px 0;
+    padding: 75px 0px 0px 0;
     background: url(../images/hero-bg.png) no-repeat center center;
     background-size: cover;
-    /* position: relative;
-        background: #1980FA; */
+    height: 900px;
 }
 
 .left-content {
@@ -411,6 +410,7 @@ p {
 
 .left-content p {
     color: #fff;
+    padding-right: 50px;
 }
 
 .hero-input {
@@ -471,9 +471,9 @@ p {
     background-size: cover;
     padding: 100px 80px;
     border-radius: 5px;
-    position: absolute;
-    left: 7%;
-    top: 149%;
+    position: relative;
+    left: 0;
+    margin-top: -85px;
 }
 
 .single-counter {
@@ -879,6 +879,10 @@ button.slick-arrow svg {
     margin-bottom: 25px;
 }
 
+.instructor-img img {
+    width: 100%;
+}
+
 .instructor-info p {
     color: #120f2d;
     font-weight: 500;
@@ -1017,6 +1021,10 @@ button.slick-arrow svg {
     color: #6b6a75;
 }
 
+.blog-metadata .margin {
+    margin-left: 16px;
+}
+
 .blog-metadata a {
     font-size: 16px;
     font-weight: 500;
@@ -1036,6 +1044,7 @@ button.slick-arrow svg {
 .footer-left p {
     color: #fff;
     margin-top: 45px;
+    padding-right: 86px;
 }
 
 .footer-input {
