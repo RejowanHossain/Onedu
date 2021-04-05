@@ -1,135 +1,270 @@
-                    /* laptop/desktop 1200px */
-                    
-                    @media (min-width: 1200px) and (max-width: 1500px) {}
-                    /* normal desktop */
-                    
-                    @media (min-width: 992px) and (max-width: 1200px) {
-                        .button {
-                            padding: 17px 20px;
-                        }
-                        .counter-container {
-                            margin-top: -132px;
-                        }
-                        h1 {
-                            font-size: 50px;
-                            line-height: 80px;
-                        }
-                        .left-content p {
-                            padding-right: 73px;
-                        }
-                        .hero-input form {
-                            width: 82%;
-                        }
-                        .single-counter {
-                            flex-direction: column;
-                            text-align: center;
-                        }
-                        .icon {
-                            margin-bottom: 10px;
-                        }
-                        .counter-data {
-                            margin-left: 0px;
-                        }
-                        .course {
-                            padding-bottom: 150px;
-                        }
-                        .img-data {
-                            top: 78%;
-                        }
-                        .course-metadata {
-                            text-align: center;
-                        }
-                        .slick-prev.pull-left.slick-arrow {
-                            left: 46%;
-                        }
-                        .slick-next.pull-right.slick-arrow {
-                            left: 51%;
-                        }
-                        .abt-img {
-                            width: 400px;
-                        }
-                        .abt-img img {
-                            width: 100%;
-                        }
-                        .section-title h2 {
-                            font-size: 34px;
-                            margin-bottom: 39px;
-                        }
-                        .abt-bottom {
-                            margin-top: 40px;
-                        }
-                        .filter {
-                            padding: 90px 0 200px 0;
-                        }
-                        .filter-top-shape {
-                            left: 5%;
-                        }
-                        .single-filter-btn {
-                            padding: 25px 30px;
-                        }
-                        .single-filter-btn img {
-                            margin-bottom: 20px;
-                        }
-                        .single-filter-btn span {
-                            font-size: 14px;
-                        }
-                        .position-shape::before {
-                            height: 25px;
-                            width: 25px;
-                            bottom: 23%;
-                        }
-                        .testimonial {
-                            padding: 90px 0 90px 0;
-                        }
-                        .testimonial .slick-prev.pull-left.slick-arrow {
-                            bottom: 37%;
-                        }
-                        .testimonial .slick-next.pull-right.slick-arrow {
-                            left: -42%;
-                            bottom: 37%;
-                        }
-                        .single-testimonial {
-                            padding: 35px 30px;
-                        }
-                        .single-testimonial .author-quote {
-                            font-family: 'Poppins', sans-serif;
-                            font-size: 17px
-                        }
-                        .instructor {
-                            padding: 90px 0 90px 0;
-                        }
-                        .instructor .slick-prev.pull-left.slick-arrow {
-                            left: -3%;
-                        }
-                        .instructor .slick-next.pull-right.slick-arrow {
-                            left: 100%;
-                        }
-                        .newsletter {
-                            padding: 90px 0 0 0;
-                        }
-                        .form-center {
-                            padding: 0 70px;
-                        }
-                        .blog {
-                            padding: 90px 0 200px 0;
-                        }
-                        .blog-metadata p {
-                            font-size: 19px;
-                            margin-bottom: 10px;
-                        }
-                        .blog-metadata span:last-child {
-                            margin-left: 0;
-                        }
-                        .footer-left p {
-                            padding-right: 72px;
-                        }
-                    }
-                    /* tablet */
-                    
-                    @media (min-width: 768px) and (max-width: 991px) {}
-                    /* small mobile */
-                    
-                    @media (max-width: 767px) {}
-                    /* large mobile */
-                    
-                    @media only screen and (min-width: 520px) and (max-width: 767px) {}
+/* laptop/desktop 1200px */
+
+@media (min-width: 1200px) and (max-width: 1500px) {}
+
+
+/* normal desktop */
+
+@media (min-width: 992px) and (max-width: 1200px) {
+    .button {
+        padding: 17px 20px;
+    }
+    .counter-container {
+        margin-top: -132px;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 80px;
+    }
+    .left-content p {
+        padding-right: 73px;
+    }
+    .hero-input form {
+        width: 82%;
+    }
+    .single-counter {
+        flex-direction: column;
+        text-align: center;
+    }
+    .icon {
+        margin-bottom: 10px;
+    }
+    .counter-data {
+        margin-left: 0px;
+    }
+    .course {
+        padding-bottom: 150px;
+    }
+    .img-data {
+        top: 78%;
+    }
+    .course-metadata {
+        text-align: center;
+    }
+    .slick-prev.pull-left.slick-arrow {
+        left: 46%;
+    }
+    .slick-next.pull-right.slick-arrow {
+        left: 51%;
+    }
+    .abt-img {
+        width: 400px;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 34px;
+        margin-bottom: 39px;
+    }
+    .abt-bottom {
+        margin-top: 40px;
+    }
+    .filter {
+        padding: 90px 0 200px 0;
+    }
+    .filter-top-shape {
+        left: 5%;
+    }
+    .single-filter-btn {
+        padding: 25px 30px;
+    }
+    .single-filter-btn img {
+        margin-bottom: 20px;
+    }
+    .single-filter-btn span {
+        font-size: 14px;
+    }
+    .position-shape::before {
+        height: 25px;
+        width: 25px;
+        bottom: 23%;
+    }
+    .testimonial {
+        padding: 90px 0 90px 0;
+    }
+    .testimonial .slick-prev.pull-left.slick-arrow {
+        bottom: 37%;
+    }
+    .testimonial .slick-next.pull-right.slick-arrow {
+        left: -42%;
+        bottom: 37%;
+    }
+    .single-testimonial {
+        padding: 35px 30px;
+    }
+    .single-testimonial .author-quote {
+        font-family: 'Poppins', sans-serif;
+        font-size: 17px
+    }
+    .instructor {
+        padding: 90px 0 90px 0;
+    }
+    .instructor .slick-prev.pull-left.slick-arrow {
+        left: -3%;
+    }
+    .instructor .slick-next.pull-right.slick-arrow {
+        left: 100%;
+    }
+    .newsletter {
+        padding: 90px 0 0 0;
+    }
+    .form-center {
+        padding: 0 70px;
+    }
+    .blog {
+        padding: 90px 0 200px 0;
+    }
+    .blog-metadata p {
+        font-size: 19px;
+        margin-bottom: 10px;
+    }
+    .blog-metadata span:last-child {
+        margin-left: 0;
+    }
+    .footer-left p {
+        padding-right: 72px;
+    }
+}
+
+
+/* tablet */
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .header-cta {
+        display: none;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0px;
+    }
+    .hero {
+        padding: 0;
+        height: 690px;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .right-content {
+        display: none;
+    }
+    .course {
+        padding-bottom: 150px;
+    }
+    .second-row ul li {
+        margin-right: 17px;
+    }
+    .course-metadata .first-row span {
+        font-size: 18px;
+    }
+    .first-row li:nth-child(2) {
+        margin-left: 13px;
+    }
+    .slick-prev.pull-left.slick-arrow {
+        left: 46%;
+    }
+    .slick-next.pull-right.slick-arrow {
+        left: 52%;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .section-title h2 {
+        font-size: 29px;
+        margin-bottom: 30px;
+    }
+    .abt-bottom {
+        margin-top: 40px;
+    }
+    .filter {
+        padding: 80px 0 190px 0;
+    }
+    .filter-top-shape {
+        left: 8%;
+    }
+    .filter-bottom-left-shape {
+        margin-top: 90px;
+    }
+    .testimonial {
+        padding: 80px 0 80px 0;
+    }
+    .testimonial-title {
+        text-align: center;
+    }
+    .testimonial-title h2 {
+        margin-top: 0px;
+    }
+    .testimonial .slick-prev.pull-left.slick-arrow {
+        left: -6%;
+        bottom: 45%;
+    }
+    .testimonial .slick-next.pull-right.slick-arrow {
+        left: 102%;
+        bottom: 43%;
+    }
+    .instructor {
+        padding: 80px 0 80px 0;
+    }
+    .newsletter {
+        padding: 90px 0 0 0;
+    }
+    .form-center {
+        padding: 0 70px;
+    }
+    .inner-newsletter {
+        padding: 50px 0 60px 0;
+    }
+    .newsletter-heading-white {
+        padding: 0 100px 0 100px;
+    }
+    .left-space {
+        padding-left: 20px;
+    }
+    .newsletter-btn {
+        margin-left: 0px;
+        display: inline-block;
+    }
+    .responsive-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+    .blog {
+        padding: 80px 0 190px 0;
+    }
+    .footer {
+        padding: 80px 0 80px 0;
+    }
+    .footer-left {
+        text-align: center;
+    }
+    .footer-left p {
+        margin-top: 35px;
+        padding-right: 0;
+    }
+    .footer-input form {
+        width: 100%;
+    }
+    .footer-input::before {
+        height: 95px;
+        width: 105%;
+        left: -3%;
+        top: -8%;
+    }
+    .responsive-margin {
+        margin-top: 50px;
+    }
+    .footer-icon {
+        text-align: center;
+    }
+}
+
+
+/* small mobile */
+
+@media (max-width: 767px) {}
+
+
+/* large mobile */
+
+@media only screen and (min-width: 520px) and (max-width: 767px) {}
