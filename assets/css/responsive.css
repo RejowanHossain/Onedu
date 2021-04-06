@@ -125,6 +125,27 @@
     .footer-left p {
         padding-right: 72px;
     }
+    /*-------------------------------------------------------------------------------------
+    Course 1 inner page
+---------------------------------------------------------------------------------------*/
+    .course-inner {
+        padding: 80px 0 80px 0;
+    }
+    .course-input form input {
+        width: 65%;
+    }
+    .course-input form .position-btn {
+        right: -19%;
+    }
+    .second-row ul li {
+        margin-right: 0px;
+    }
+    .course-input form input {
+        width: 50%;
+    }
+    .nice-select {
+        right: 18%;
+    }
 }
 
 
@@ -258,6 +279,18 @@
     }
     .footer-icon {
         text-align: center;
+    }
+    /*-------------------------------------------------------------------------------------
+    Course 1 inner page
+---------------------------------------------------------------------------------------*/
+    .course-hero {
+        padding: 140px 0;
+    }
+    .course-input form input {
+        width: 50%;
+    }
+    .nice-select {
+        right: 18%;
     }
 }
 
@@ -467,6 +500,32 @@
     .footer-menu p {
         margin-top: 10px;
     }
+    /*-------------------------------------------------------------------------------------
+    Course 1 inner page
+---------------------------------------------------------------------------------------*/
+    .course-hero {
+        padding: 100px 0;
+    }
+    .course-input form input {
+        width: 50%;
+    }
+    .nice-select {
+        right: 18%;
+    }
+    .course-input form .position-btn {
+        right: 28%;
+        top: 115%;
+    }
+    .nice-select {
+        right: 2%;
+        width: 45%;
+    }
+    .responsive-margin-bottom {
+        margin-bottom: 30px;
+    }
+    .course-input form label {
+        padding: 15px 0 15px 8px;
+    }
 }
 
 
@@ -636,5 +695,28 @@
     }
     .footer-menu p {
         margin-top: 10px;
+    }
+    /*-------------------------------------------------------------------------------------
+    Course 1 inner page
+---------------------------------------------------------------------------------------*/
+    .course-hero {
+        padding: 100px 0;
+    }
+    .course-input form input {
+        width: 50%;
+    }
+    .nice-select {
+        right: 18%;
+    }
+    .course-input form .position-btn {
+        right: 36%;
+        top: 115%;
+    }
+    .nice-select {
+        right: 2%;
+        width: 23%;
+    }
+    .responsive-margin-bottom {
+        margin-bottom: 30px;
     }
 }

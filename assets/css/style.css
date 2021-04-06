@@ -456,7 +456,7 @@ p {
         background: #ecc3c3; */
     width: 70%;
     border-radius: 5px;
-    padding: 16px 50px;
+    padding: 14px 50px;
     border: none;
     background: #fff;
     margin-top: 20px;
@@ -1162,6 +1162,88 @@ button.slick-arrow svg {
 .footer-menu span {
     color: #2878eb;
     font-size: 14px;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    courses page
+---------------------------------------------------------------------------------------*/
+
+.course-inner {
+    margin-top: 0;
+}
+
+.course-input {
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    margin-top: 0;
+    margin-bottom: 78px;
+}
+
+.course-input .form-search-icon svg {
+    color: #120f2d;
+}
+
+.course-input form input {
+    padding: 14px 66px;
+    width: 67%;
+}
+
+.course-input form label {
+    color: #120f2d;
+    border-left: 2px solid #eaeaea;
+    padding: 15px 0 15px 22px;
+}
+
+.course-input form .position-btn {
+    right: -13%;
+}
+
+.course-hero {
+    background: url(../images/course-hero.png) no-repeat center center;
+    background-size: cover;
+    padding: 197px 0;
+}
+
+.bread-crumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bread-crumb a,
+.bread-crumb span {
+    color: #fff;
+    font-size: 24px;
+}
+
+.bread-crumb a:hover {
+    color: #fff;
+}
+
+.nice-select {
+    width: 13%;
+    right: 8%;
+    position: absolute;
+    bottom: 27%;
+    border: none;
+}
+
+.nice-select .list {
+    width: 100%;
+}
+
+.pagination-margin {
+    margin-top: 67px;
+}
+
+.page-item.active .page-link {
+    background-color: #1980fa;
+}
+
+.page-item:last-child .page-link {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
 }
 
 
