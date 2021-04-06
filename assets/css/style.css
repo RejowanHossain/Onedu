@@ -278,8 +278,12 @@ p {
     top: 110%;
 }
 
+.main-menu ul {
+    display: flex;
+    align-items: center;
+}
+
 .main-menu ul li {
-    display: inline-block;
     margin-left: 36px;
     position: relative;
 }
@@ -297,6 +301,7 @@ p {
 
 .main-menu ul li ul.submenu,
 .category-dropdown ul li ul.submenu {
+    display: block;
     position: absolute;
     background: #ffffff;
     width: 200px;
@@ -362,11 +367,23 @@ p {
     width: 15px;
 }
 
-.header-cta ul .button {
-    margin-right: 24px;
+.main-menu ul .header-cta {
+    margin-left: 40px;
 }
 
-.header-cta ul .user-cta svg {
+.main-menu ul .header-cta a {
+    padding: 0;
+}
+
+.main-menu ul .header-cta a:hover {
+    color: #fff;
+}
+
+.main-menu ul .user-cta {
+    margin-left: 20px;
+}
+
+.main-menu ul .user-cta svg {
     border: 1px solid #2878eb;
     padding: 9px;
     height: 35px;
@@ -374,6 +391,10 @@ p {
     font-size: 16px;
     border-radius: 50%;
     color: #2878eb;
+}
+
+.main-menu ul .user-cta a {
+    padding: 0;
 }
 
 

@@ -131,11 +131,12 @@
 /* tablet */
 
 @media (min-width: 768px) and (max-width: 991px) {
-    .header-cta {
-        display: none;
-    }
     .mean-container .mean-nav {
         margin-top: 0px;
+    }
+    .mean-container .mean-nav ul .header-cta {
+        padding: 0;
+        background: transparent;
     }
     .hero {
         padding: 0;
@@ -149,7 +150,8 @@
         display: none;
     }
     .course {
-        padding-bottom: 150px;
+        padding: 80px 0 150px 0;
+        margin-top: 0;
     }
     .second-row ul li {
         margin-right: 17px;
@@ -262,9 +264,377 @@
 
 /* small mobile */
 
-@media (max-width: 767px) {}
+@media (max-width: 767px) {
+    .top-bar .small-screen-alignment {
+        display: flex;
+        justify-content: center;
+    }
+    .space-bottom {
+        margin-bottom: 20px;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0px;
+    }
+    .mean-container .mean-nav ul .header-cta {
+        padding: 0;
+        background: transparent;
+    }
+    .mean-container a.meanmenu-reveal {
+        margin-top: -41px;
+    }
+    .header {
+        padding: 20px 0;
+    }
+    .site-logo img {
+        width: 40%;
+    }
+    .category-dropdown {
+        display: none;
+    }
+    .hero {
+        padding: 0;
+        height: 690px;
+    }
+    h1 {
+        font-size: 40px;
+        line-height: 55px;
+    }
+    .hero-input form {
+        width: 100%;
+    }
+    .hero-input form input {
+        padding: 14px 41px;
+    }
+    .hero-input form .position-btn {
+        padding: 17px 10px;
+    }
+    .right-content {
+        display: none;
+    }
+    .counter-container {
+        padding: 80px 80px;
+    }
+    .single-counter {
+        padding: 40px 35px;
+    }
+    .small-margin {
+        margin-bottom: 24px;
+    }
+    .course {
+        padding: 80px 0 150px 0;
+        margin-top: 0;
+    }
+    .section-title h2 {
+        font-size: 30px;
+        margin-bottom: 39px;
+    }
+    .slick-prev.pull-left.slick-arrow {
+        left: 42%;
+    }
+    .slick-next.pull-right.slick-arrow {
+        left: 52%;
+    }
+    .about {
+        padding: 80px 0 80px 0;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .abt-bottom {
+        margin-top: 40px;
+    }
+    .single-abt {
+        margin-bottom: 28px;
+    }
+    .filter {
+        padding: 80px 0 190px 0;
+    }
+    .filter-top-shape {
+        left: 9%;
+    }
+    .filter-bottom-left-shape {
+        margin-top: 90px;
+    }
+    .single-filter-btn {
+        margin-bottom: 50px;
+    }
+    .single-filter-btn img {
+        margin-bottom: 18px;
+    }
+    .single-filter-btn p {
+        font-size: 20px;
+    }
+    .position-shape::before {
+        left: 47%;
+    }
+    .testimonial {
+        padding: 80px 0 80px 0;
+    }
+    .testimonial-title {
+        text-align: center;
+    }
+    .testimonial-title h2 {
+        margin-top: 0px;
+    }
+    .single-testimonial {
+        text-align: center;
+    }
+    .testimonial .slick-prev.pull-left.slick-arrow {
+        /* left: -6%;
+        bottom: 45%; */
+        display: none;
+    }
+    .testimonial .slick-next.pull-right.slick-arrow {
+        /* left: 102%;
+        bottom: 43%; */
+        display: none;
+    }
+    .instructor {
+        padding: 80px 0 80px 0;
+    }
+    .instructor .slick-next.pull-right.slick-arrow {
+        left: 53%;
+        top: 110%;
+    }
+    .instructor .slick-prev.pull-left.slick-arrow {
+        left: 42%;
+        top: 110%;
+    }
+    .newsletter {
+        padding: 90px 0 0 0;
+    }
+    .inner-newsletter {
+        padding: 50px 0 60px 0;
+        background-size: cover;
+    }
+    .newsletter-heading-white {
+        padding: 0 30px 0 30px;
+    }
+    .left-space {
+        padding-left: 16px;
+    }
+    .form-center {
+        padding: 0 70px;
+    }
+    .form-center .small-width {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .newsletter-btn {
+        margin-left: 0px;
+        display: inline-block;
+    }
+    .responsive-btn {
+        margin-top: 0px;
+    }
+    .blog {
+        padding: 80px 0 190px 0;
+    }
+    .footer {
+        padding: 80px 0 80px 0;
+    }
+    .footer-left {
+        text-align: center;
+    }
+    .footer-left p {
+        margin-top: 35px;
+        padding-right: 0;
+    }
+    .footer-input form {
+        height: 75px;
+    }
+    .footer-input form input {
+        margin-top: 11px;
+    }
+    .footer-input::before {
+        height: 95px;
+        width: 103%;
+        left: -3%;
+        top: -8%;
+    }
+    .responsive-margin {
+        margin-top: 50px;
+    }
+    .footer-icon {
+        text-align: center;
+    }
+    .footer-link h5 {
+        margin-bottom: 18px;
+    }
+    .footer-copyright ul li {
+        margin-right: 15px;
+    }
+    .footer-menu p {
+        margin-top: 10px;
+    }
+}
 
 
 /* large mobile */
 
-@media only screen and (min-width: 520px) and (max-width: 767px) {}
+@media only screen and (min-width: 520px) and (max-width: 767px) {
+    .top-bar .small-screen-alignment {
+        display: flex;
+        justify-content: center;
+    }
+    .space-bottom {
+        margin-bottom: 20px;
+    }
+    .mean-container .mean-nav {
+        margin-top: 0px;
+    }
+    .mean-container .mean-nav ul .header-cta {
+        padding: 0;
+        background: transparent;
+    }
+    .site-logo img {
+        width: 100%;
+    }
+    .hero {
+        padding: 0;
+        height: 690px;
+    }
+    h1 {
+        font-size: 50px;
+        line-height: 70px;
+    }
+    .right-content {
+        display: none;
+    }
+    .single-counter {
+        padding: 40px 35px;
+    }
+    .counter-container {
+        padding: 80px 80px;
+    }
+    .small-margin {
+        margin-bottom: 24px;
+    }
+    .course {
+        padding: 80px 0 150px 0;
+        margin-top: 0;
+    }
+    .section-title h2 {
+        font-size: 34px;
+        margin-bottom: 39px;
+    }
+    .slick-prev.pull-left.slick-arrow {
+        left: 44%;
+    }
+    .slick-next.pull-right.slick-arrow {
+        left: 52%;
+    }
+    .about {
+        padding: 80px 0 80px 0;
+    }
+    .abt-img img {
+        width: 100%;
+    }
+    .abt-bottom {
+        margin-top: 40px;
+    }
+    .single-abt {
+        margin-bottom: 28px;
+    }
+    .filter {
+        padding: 80px 0 190px 0;
+    }
+    .filter-top-shape {
+        left: 9%;
+    }
+    .single-filter-btn img {
+        margin-bottom: 18px;
+    }
+    .single-filter-btn p {
+        font-size: 20px;
+    }
+    .position-shape::before {
+        left: 47%;
+    }
+    .testimonial {
+        padding: 80px 0 80px 0;
+    }
+    .testimonial-title {
+        text-align: center;
+    }
+    .testimonial-title h2 {
+        margin-top: 0px;
+    }
+    .single-testimonial {
+        text-align: center;
+    }
+    .testimonial .slick-prev.pull-left.slick-arrow {
+        left: -6%;
+        bottom: 45%;
+    }
+    .testimonial .slick-next.pull-right.slick-arrow {
+        left: 102%;
+        bottom: 43%;
+    }
+    .instructor {
+        padding: 80px 0 80px 0;
+    }
+    .instructor .slick-prev.pull-left.slick-arrow {
+        left: 43%;
+        top: 108%;
+    }
+    .instructor .slick-next.pull-right.slick-arrow {
+        left: 52%;
+        top: 108%;
+    }
+    .newsletter {
+        padding: 90px 0 0 0;
+    }
+    .inner-newsletter {
+        padding: 50px 0 60px 0;
+        background-size: cover;
+    }
+    .newsletter-heading-white {
+        padding: 0 30px 0 30px;
+    }
+    .left-space {
+        padding-left: 16px;
+    }
+    .form-center {
+        padding: 0 70px;
+    }
+    .form-center .small-width {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .newsletter-btn {
+        margin-left: 0px;
+        display: inline-block;
+    }
+    .responsive-btn {
+        margin-top: 0px;
+    }
+    .blog {
+        padding: 80px 0 190px 0;
+    }
+    .footer {
+        padding: 80px 0 80px 0;
+    }
+    .footer-left {
+        text-align: center;
+    }
+    .footer-left p {
+        margin-top: 35px;
+        padding-right: 0;
+    }
+    .responsive-margin {
+        margin-top: 50px;
+    }
+    .footer-icon {
+        text-align: center;
+    }
+    .footer-link h5 {
+        margin-bottom: 18px;
+    }
+    .footer-copyright ul li {
+        margin-right: 15px;
+    }
+    .footer-menu p {
+        margin-top: 10px;
+    }
+}
