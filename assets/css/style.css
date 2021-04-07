@@ -1248,6 +1248,72 @@ button.slick-arrow svg {
 
 
 /*-------------------------------------------------------------------------------------
+    courses 02 page
+---------------------------------------------------------------------------------------*/
+
+.course-left-search .form-search-icon {
+    position: absolute;
+    position: absolute;
+    left: 8%;
+    top: 25px;
+}
+
+.course-left-search form input {
+    padding: 22px 40px 18px 40px;
+    border: 2px solid #eaeaea;
+    border-radius: 5px;
+}
+
+.course-left-search .position-btn button {
+    border: none;
+    background: transparent;
+}
+
+.course-left-search .position-btn {
+    padding: 17px 11px;
+    background: #2878eb;
+}
+
+.course-left-search .position-btn svg {
+    color: #fff;
+    font-size: 27px;
+}
+
+.widget-margin {
+    margin-bottom: 55px;
+}
+
+.category-widget .widget-title {
+    margin-bottom: 40px;
+}
+
+.category-widget .widget-title h5 {
+    font-size: 24px;
+    color: #120f2d;
+}
+
+.category-widget .filter-link li {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.category-widget .filter-link li:last-child {
+    margin-bottom: 0
+}
+
+.category-widget .filter-link li a,
+.category-widget .filter-link li span {
+    color: #6b6a75;
+    font-size: 18px;
+}
+
+.category-widget .filter-link li a:hover {
+    color: #2878eb;
+}
+
+
+/*-------------------------------------------------------------------------------------
     back to top button
 ---------------------------------------------------------------------------------------*/
 

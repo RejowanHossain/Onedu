@@ -146,6 +146,25 @@
     .nice-select {
         right: 18%;
     }
+    /*-------------------------------------------------------------------------------------
+    Course 2 inner page
+---------------------------------------------------------------------------------------*/
+    .course-left-search form input {
+        padding: 22px 40px;
+        border: 2px solid #eaeaea;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 11px;
+    }
+    .course-left-search .form-search-icon {
+        left: 10%;
+    }
+    .course-left-search .position-btn {
+        padding: 17px 11px;
+        background: #2878eb;
+        display: block;
+        text-align: center;
+    }
 }
 
 
@@ -291,6 +310,25 @@
     }
     .nice-select {
         right: 18%;
+    }
+    /*-------------------------------------------------------------------------------------
+    Course 2 inner page
+---------------------------------------------------------------------------------------*/
+    .course-left-search form input {
+        padding: 22px 55px;
+        border: 2px solid #eaeaea;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 11px;
+    }
+    .course-left-search .form-search-icon {
+        left: 5%;
+    }
+    .course-left-search .position-btn {
+        padding: 17px 11px;
+        background: #2878eb;
+        display: block;
+        text-align: center;
     }
 }
 
@@ -526,6 +564,25 @@
     .course-input form label {
         padding: 15px 0 15px 8px;
     }
+    /*-------------------------------------------------------------------------------------
+    Course 2 inner page
+---------------------------------------------------------------------------------------*/
+    .course-left-search form input {
+        padding: 22px 55px;
+        border: 2px solid #eaeaea;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 11px;
+    }
+    .course-left-search .form-search-icon {
+        left: 5%;
+    }
+    .course-left-search .position-btn {
+        padding: 17px 11px;
+        background: #2878eb;
+        display: block;
+        text-align: center;
+    }
 }
 
 
@@ -718,5 +775,24 @@
     }
     .responsive-margin-bottom {
         margin-bottom: 30px;
+    }
+    /*-------------------------------------------------------------------------------------
+    Course 2 inner page
+---------------------------------------------------------------------------------------*/
+    .course-left-search form input {
+        padding: 22px 55px;
+        border: 2px solid #eaeaea;
+        border-radius: 5px;
+        width: 100%;
+        margin-bottom: 11px;
+    }
+    .course-left-search .form-search-icon {
+        left: 5%;
+    }
+    .course-left-search .position-btn {
+        padding: 17px 11px;
+        background: #2878eb;
+        display: block;
+        text-align: center;
     }
 }
