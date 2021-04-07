@@ -299,6 +299,10 @@ p {
     color: #2878eb;
 }
 
+.main-menu ul .header-cta:hover>a {
+    color: #fff;
+}
+
 .main-menu ul li ul.submenu,
 .category-dropdown ul li ul.submenu {
     display: block;
@@ -1310,6 +1314,89 @@ button.slick-arrow svg {
 
 .category-widget .filter-link li a:hover {
     color: #2878eb;
+}
+
+
+/*-------------------------------------------------------------------------------------
+    courses details page
+---------------------------------------------------------------------------------------*/
+
+.course-details li {
+    margin-right: 70px;
+}
+
+.course-details-page-container {
+    box-shadow: none;
+}
+
+.course-details-showcase .img-data {
+    top: 90%;
+    left: 3%;
+}
+
+.course-details-page-container .course-metadata {
+    padding: 0;
+    margin-top: 50px;
+}
+
+.course-details-page-container .course-metadata .first-row span {
+    font-size: 24px;
+    display: block;
+    margin-bottom: 32px;
+}
+
+.course-detail-tab {
+    margin-top: 30px;
+}
+
+.nav-tabs {
+    border-bottom: none;
+}
+
+.nav-tabs .nav-link {
+    border: none;
+}
+
+.nav-link {
+    padding: 0;
+    margin-right: 65px;
+}
+
+.nav-tabs .nav-link.active {
+    color: #2878eb;
+    border: none;
+}
+
+.tab-content>.active {
+    background: none;
+}
+
+.content-container {
+    margin-top: 50px;
+}
+
+.content-container .top-para p {
+    margin-bottom: 35px;
+    text-align: justify;
+}
+
+.content-container .bottom-para p {
+    text-align: justify;
+}
+
+.content-container .top-para p,
+.content-container .bottom-para p {
+    color: #6b6a75;
+}
+
+.apply-course-btn {
+    background: #2878eb;
+    margin-top: 100px;
+}
+
+.related-course {
+    margin-top: 0;
+    padding-top: 0;
 }
 
 

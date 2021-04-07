@@ -165,6 +165,15 @@
         display: block;
         text-align: center;
     }
+    /*-------------------------------------------------------------------------------------
+    Course details page
+---------------------------------------------------------------------------------------*/
+    .course-details-page-container .course-metadata .second-row ul li {
+        margin-right: 7px;
+    }
+    .course-details-page-container .course-metadata {
+        text-align: left;
+    }
 }
 
 
@@ -329,6 +338,18 @@
         background: #2878eb;
         display: block;
         text-align: center;
+    }
+    /*-------------------------------------------------------------------------------------
+    Course details page
+---------------------------------------------------------------------------------------*/
+    .related-course {
+        padding-top: 0;
+    }
+    .course-details-page-container .course-metadata .second-row ul li {
+        margin-right: 7px;
+    }
+    .detail-course-space {
+        padding: 80px 0 120px 0;
     }
 }
 
@@ -583,6 +604,24 @@
         display: block;
         text-align: center;
     }
+    /*-------------------------------------------------------------------------------------
+    Course details page
+---------------------------------------------------------------------------------------*/
+    .nav-link {
+        margin-right: 28px;
+    }
+    .related-course {
+        padding-top: 0;
+    }
+    .course-details-page-container .course-metadata .second-row ul li {
+        margin-right: 7px;
+    }
+    .apply-course-btn {
+        margin-top: 60px;
+    }
+    .detail-course-space {
+        padding: 80px 0 120px 0;
+    }
 }
 
 
@@ -794,5 +833,23 @@
         background: #2878eb;
         display: block;
         text-align: center;
+    }
+    /*-------------------------------------------------------------------------------------
+    Course details page
+---------------------------------------------------------------------------------------*/
+    .nav-link {
+        margin-right: 50px;
+    }
+    .related-course {
+        padding-top: 0;
+    }
+    .course-details-page-container .course-metadata .second-row ul li {
+        margin-right: 7px;
+    }
+    .apply-course-btn {
+        margin-top: 60px;
+    }
+    .detail-course-space {
+        padding: 80px 0 120px 0;
     }
 }
