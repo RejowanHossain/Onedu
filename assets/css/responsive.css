@@ -183,6 +183,46 @@
     .blog-list-single .blog-metadata span svg {
         margin-right: 5px;
     }
+    /*-------------------------------------------------------------------------------------
+    blog details page
+---------------------------------------------------------------------------------------*/
+    .blog-detail-search .form-search-icon {
+        top: 40.8%;
+    }
+    .blog-details-img img {
+        width: 100%;
+    }
+    .blog-details-metadata {
+        padding: 25px 0 25px 0;
+    }
+    .blog-details-text {
+        padding: 40px 0 50px 0;
+    }
+    .blog-details-video img {
+        width: 100%;
+    }
+    .blog-details-tag {
+        margin-top: 35px;
+    }
+    .blog-icon ul li {
+        display: inline-block;
+        margin-right: 12px;
+    }
+    .apply-course-btn {
+        margin-top: 60px;
+    }
+    .comment-box {
+        margin-top: 75px;
+    }
+    .comment-box .widget-title {
+        margin-bottom: 30px;
+    }
+    .single-comment-container .c-left {
+        margin-right: 25px;
+    }
+    .single-comment-container:nth-child(3) {
+        padding-left: 60px;
+    }
 }
 
 
@@ -368,6 +408,49 @@
     }
     .blog-list-single .blog-metadata span svg {
         margin-right: 5px;
+    }
+    /*-------------------------------------------------------------------------------------
+    blog details page
+---------------------------------------------------------------------------------------*/
+    .blog-detail-search .form-search-icon {
+        top: 47.7%;
+    }
+    .blog-details-img img {
+        width: 100%;
+    }
+    .blog-details-metadata {
+        padding: 25px 0 25px 0;
+    }
+    .blog-details-tag span {
+        margin-right: 5px;
+    }
+    .blog-details-text {
+        padding: 40px 0 50px 0;
+    }
+    .blog-details-video img {
+        width: 100%;
+    }
+    .blog-details-tag {
+        margin-top: 35px;
+    }
+    .blog-icon ul li {
+        display: inline-block;
+        margin-right: 12px;
+    }
+    .apply-course-btn {
+        margin-top: 60px;
+    }
+    .comment-box {
+        margin-top: 75px;
+    }
+    .comment-box .widget-title {
+        margin-bottom: 30px;
+    }
+    .single-comment-container .c-left {
+        margin-right: 25px;
+    }
+    .single-comment-container:nth-child(3) {
+        padding-left: 60px;
     }
 }
 
@@ -649,6 +732,65 @@
     .blog-list-single .blog-metadata span svg {
         margin-right: 5px;
     }
+    /*-------------------------------------------------------------------------------------
+    blog details page
+---------------------------------------------------------------------------------------*/
+    .blog-detail-search .form-search-icon {
+        top: 64.3%;
+        left: 9%;
+    }
+    .blog-details-img img {
+        width: 100%;
+    }
+    .padding {
+        padding-left: 15px;
+    }
+    .blog-metadata span {
+        font-size: 14px;
+    }
+    .upper span svg {
+        margin-right: 7px;
+    }
+    .blog-details-metadata {
+        padding: 25px 0 25px 0;
+    }
+    .tag {
+        margin-bottom: 14px;
+    }
+    .blog-details-tag span.heading {
+        margin-right: 15px;
+    }
+    .blog-details-tag span {
+        margin-right: 2px;
+    }
+    .blog-details-text {
+        padding: 40px 0 50px 0;
+    }
+    .blog-details-video img {
+        width: 100%;
+    }
+    .blog-details-tag {
+        margin-top: 35px;
+    }
+    .blog-icon ul li {
+        display: inline-block;
+        margin-right: 12px;
+    }
+    .apply-course-btn {
+        margin-top: 60px;
+    }
+    .comment-box {
+        margin-top: 75px;
+    }
+    .comment-box .widget-title {
+        margin-bottom: 30px;
+    }
+    .single-comment-container .c-left {
+        margin-right: 25px;
+    }
+    .single-comment-container:nth-child(3) {
+        padding-left: 60px;
+    }
 }
 
 
@@ -887,5 +1029,52 @@
     }
     .blog-list-single .blog-metadata span svg {
         margin-right: 5px;
+    }
+    /*-------------------------------------------------------------------------------------
+    blog details page
+---------------------------------------------------------------------------------------*/
+    .blog-detail-search .form-search-icon {
+        top: 66.4%;
+        left: 7%;
+    }
+    .blog-details-img img {
+        width: 100%;
+    }
+    .padding {
+        padding-left: 0;
+    }
+    .blog-details-metadata {
+        padding: 25px 0 25px 0;
+    }
+    .blog-details-tag span {
+        margin-right: 5px;
+    }
+    .blog-details-text {
+        padding: 40px 0 50px 0;
+    }
+    .blog-details-video img {
+        width: 100%;
+    }
+    .blog-details-tag {
+        margin-top: 35px;
+    }
+    .blog-icon ul li {
+        display: inline-block;
+        margin-right: 12px;
+    }
+    .apply-course-btn {
+        margin-top: 60px;
+    }
+    .comment-box {
+        margin-top: 75px;
+    }
+    .comment-box .widget-title {
+        margin-bottom: 30px;
+    }
+    .single-comment-container .c-left {
+        margin-right: 25px;
+    }
+    .single-comment-container:nth-child(3) {
+        padding-left: 60px;
     }
 }
