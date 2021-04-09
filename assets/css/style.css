@@ -383,11 +383,13 @@ p {
     color: #fff;
 }
 
-.main-menu ul .user-cta {
+.main-menu ul .user-cta,
+.home-two-header-bg .user-cta svg {
     margin-left: 20px;
 }
 
-.main-menu ul .user-cta svg {
+.main-menu ul .user-cta svg,
+.home-two-header-bg .user-cta svg {
     border: 1px solid #2878eb;
     padding: 9px;
     height: 35px;
@@ -400,12 +402,6 @@ p {
 .main-menu ul .user-cta a {
     padding: 0;
 }
-
-
-/* .black {
-        box-shadow: 0 0 10px 3px rgb(0 0 0 / 5%);
-        background: #fff;
-    } */
 
 
 /*-------------------------------------------------------------------------------------
@@ -544,6 +540,10 @@ p {
 }
 
 .single-course-container {
+    transition: .1s linear all;
+}
+
+.single-course-container:hover {
     box-shadow: 0px 15px 20px 0px rgba(172, 172, 172, 0.15);
 }
 
@@ -1170,6 +1170,190 @@ button.slick-arrow svg {
 
 
 /*-------------------------------------------------------------------------------------
+   Homepage 2 
+---------------------------------------------------------------------------------------*/
+
+
+/* header starts*/
+
+.home-two-header {
+    position: absolute;
+    width: 100%;
+    padding: 30px 0 45px;
+    z-index: 9999;
+}
+
+.home-two-header-bg {
+    background: #fff;
+    box-shadow: 0px 25px 70px 0px rgba(152, 152, 153, 0.25);
+    border-radius: 5px;
+}
+
+.home-two-header-bg ul.header-right {
+    display: flex;
+    align-items: center;
+}
+
+.container-padding {
+    padding: 0 18px;
+}
+
+
+/* header ends */
+
+
+/* hero starts*/
+
+.home-two {
+    background: url(../images/home-2-bg.png) no-repeat center center;
+    background-size: cover;
+}
+
+.home-two .left-content h4 {
+    color: #2878eb;
+}
+
+.home-two .left-content h1 {
+    color: #120f2d;
+}
+
+.home-two .left-content p {
+    color: #858691;
+}
+
+.home-two .right-content {
+    margin: 90px 0 0 72px;
+}
+
+.home-two .right-content img {
+    margin-left: -144px;
+}
+
+.home-two .hero-input form {
+    width: 85%;
+    box-shadow: 0px 25px 70px 0px rgba(152, 152, 153, 0.25);
+}
+
+
+/* hero ends */
+
+
+/* about starts */
+
+.home-two-abt {
+    position: relative;
+    margin: 86px 0 0 0;
+}
+
+.home-two-abt .single-abt {
+    flex-direction: column;
+    box-shadow: 0px 25px 70px 0px rgba(152, 152, 153, 0.25);
+    padding: 60px 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.home-two-abt .single-abt .abt-icon {
+    margin: 0 0 55px 0;
+}
+
+.home-two-abt .abt-detail {
+    margin-left: 0;
+}
+
+.home-two-abt .abt-detail p {
+    margin-top: 16px;
+    line-height: 27px;
+    font-size: 16px;
+}
+
+.abt-shape-left {
+    position: absolute;
+    top: 50%;
+}
+
+.abt-shape-right {
+    position: absolute;
+    right: 2%;
+    bottom: 7%;
+}
+
+
+/* about ends */
+
+
+/* filter starts */
+
+.home-two-filter {
+    margin-top: 41px;
+    background: #ecf4ff;
+    padding: 110px 0 61px 0;
+}
+
+.home-two-filter .slick-next.pull-right.slick-arrow {
+    left: 103%;
+    bottom: 56%;
+}
+
+.home-two-filter .slick-prev.pull-left.slick-arrow {
+    left: -5%;
+    bottom: 56%;
+}
+
+
+/* filter ends */
+
+
+/* course starts */
+
+.home-two-course {
+    padding: 38px 0 108px 0;
+}
+
+
+/* course ends */
+
+
+/* counter starts */
+
+.home-two-counter {
+    background: url(../images/home-two-counter-bg.png) no-repeat center center;
+}
+
+.home-two-counter .counter-container {
+    background: none;
+}
+
+.home-two-counter .counter-container {
+    margin-top: 0;
+}
+
+
+/* counter ends */
+
+
+/* testimonial starts */
+
+.home-two-testimonial {
+    background: url(../images//home-two-testimonial-bg.png) no-repeat center center;
+    padding: 76px 0 90px;
+    background-size: contain;
+}
+
+.home-two-testimonial .single-testimonial {
+    box-shadow: none;
+    text-align: center;
+}
+
+.home-two-testimonial .single-testimonial .author-quote {
+    padding: 0 77px;
+}
+
+
+/* testimonial ends */
+
+
+/*-------------------------------------------------------------------------------------
     courses page
 ---------------------------------------------------------------------------------------*/
 
@@ -1326,6 +1510,10 @@ button.slick-arrow svg {
 
 .course-details li {
     margin-right: 70px;
+}
+
+.course-details-page-container:hover {
+    box-shadow: none;
 }
 
 .course-details-page-container {
@@ -1544,7 +1732,6 @@ button.slick-arrow svg {
 .padding .blog-prev {
     background: #f14d5d;
     margin-right: 5px;
-    /* padding: 23px 22px; */
 }
 
 .padding .blog-next {
