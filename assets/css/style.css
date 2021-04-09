@@ -1376,6 +1376,49 @@ button.slick-arrow svg {
 /* blog ends */
 
 
+/* newsletter starts */
+
+.home-two-newsletter {
+    padding: 87px 0 0 0;
+    margin-bottom: -99px;
+    position: relative;
+}
+
+
+/* newsletter ends */
+
+
+/* footer starts */
+
+.home-two-footer-form::before {
+    width: 98%;
+    left: 1%;
+    top: -20%;
+    height: 100px;
+}
+
+.home-two-footer-form form {
+    width: 96%;
+    left: 2%;
+}
+
+.footer-two-form-upper-margin {
+    margin-top: 74px;
+}
+
+.home-two-footer-icon,
+.home-two-footer-menu p {
+    margin-top: 0;
+}
+
+.home-two-footer-icon ul li {
+    margin-right: 10px;
+}
+
+
+/* footer ends */
+
+
 /*-------------------------------------------------------------------------------------
     courses page
 ---------------------------------------------------------------------------------------*/
