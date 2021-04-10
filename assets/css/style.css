@@ -1415,6 +1415,10 @@ button.slick-arrow svg {
     margin-right: 10px;
 }
 
+.lg-end {
+    justify-content: end;
+}
+
 
 /* footer ends */
 

@@ -126,6 +126,56 @@
         padding-right: 72px;
     }
     /*-------------------------------------------------------------------------------------
+    Homepage 2
+---------------------------------------------------------------------------------------*/
+    .home-two .right-content {
+        margin: 90px 0 0 0px;
+    }
+    .home-two .right-content img {
+        margin-left: -48px;
+    }
+    .home-two-abt {
+        position: relative;
+        margin: 25px 0 0 0;
+    }
+    .home-two-filter {
+        padding: 100px 0 52px 0;
+    }
+    .home-two-filter .slick-prev.pull-left.slick-arrow {
+        left: -3%;
+        bottom: 56%;
+    }
+    .home-two-filter .slick-next.pull-right.slick-arrow {
+        left: 100%;
+        bottom: 56%;
+    }
+    .abt-shape-right {
+        height: 100px;
+        width: 100px;
+    }
+    .abt-shape-right img {
+        width: 100%;
+    }
+    .home-two-course {
+        padding: 0 0 45px 0;
+        padding-bottom: 51px;
+    }
+    .home-two-counter .counter-container {
+        padding: 70px 80px;
+    }
+    .home-two-counter .single-counter {
+        padding: 40px 21px;
+    }
+    .home-two-testimonial {
+        padding: 35px 0 0 0;
+    }
+    .home-two-blog {
+        padding: 30px 0 69px 0;
+    }
+    .home-two-footer-form form {
+        width: 96%;
+    }
+    /*-------------------------------------------------------------------------------------
     Course 1 inner page
 ---------------------------------------------------------------------------------------*/
     .course-inner {
@@ -358,6 +408,63 @@
         text-align: center;
     }
     /*-------------------------------------------------------------------------------------
+        Homepage 2 
+---------------------------------------------------------------------------------------*/
+    .container-padding {
+        height: 84px;
+    }
+    .home-two-header-bg ul.header-right {
+        display: none;
+    }
+    .home-two-header-bg .site-logo {
+        padding-top: 22px;
+    }
+    .home-two-header-bg .mean-container .mean-bar {
+        margin-top: 47px;
+    }
+    .home-two-header-bg .mean-container a.meanmenu-reveal {
+        margin-top: -86px;
+    }
+    .home-two {
+        height: 100vh;
+    }
+    .home-two .left-content {
+        margin-top: 231px;
+    }
+    .home-two-abt {
+        margin: 0;
+    }
+    .home-two-filter {
+        padding: 100px 0 52px 0;
+    }
+    .home-two-filter .slick-next.pull-right.slick-arrow {
+        left: 101%;
+    }
+    .home-two-course {
+        padding-bottom: 51px;
+    }
+    .home-two-counter {
+        background-size: cover;
+    }
+    .home-two-testimonial {
+        padding: 35px 0 0 0;
+    }
+    .home-two-blog {
+        padding: 30px 0 69px 0;
+    }
+    .home-two-footer-form form {
+        width: 96%;
+    }
+    .footer-two-form-upper-margin {
+        margin-top: 7px;
+    }
+    .home-two-footer-form::before {
+        height: 95px;
+        width: 100%;
+        left: 0%;
+        top: -18%;
+    }
+    /*-------------------------------------------------------------------------------------
     Course 1 inner page
 ---------------------------------------------------------------------------------------*/
     .course-hero {
@@ -573,13 +680,9 @@
         text-align: center;
     }
     .testimonial .slick-prev.pull-left.slick-arrow {
-        /* left: -6%;
-        bottom: 45%; */
         display: none;
     }
     .testimonial .slick-next.pull-right.slick-arrow {
-        /* left: 102%;
-        bottom: 43%; */
         display: none;
     }
     .instructor {
@@ -659,6 +762,106 @@
     }
     .footer-menu p {
         margin-top: 10px;
+    }
+    /*-------------------------------------------------------------------------------------
+        Homepage 2 
+---------------------------------------------------------------------------------------*/
+    .container-padding {
+        height: 84px;
+    }
+    .home-two-header-bg ul.header-right {
+        display: none;
+    }
+    .home-two-header-bg .site-logo {
+        padding-top: 22px;
+    }
+    .home-two-header-bg .mean-container .mean-bar {
+        margin-top: 47px;
+    }
+    .home-two-header-bg .mean-container a.meanmenu-reveal {
+        margin-top: -86px;
+    }
+    .home-two {
+        height: 100vh;
+    }
+    .home-two .left-content {
+        margin-top: 231px;
+    }
+    .home-two .hero-input form {
+        width: 100%;
+    }
+    .home-two-abt {
+        margin: 0;
+    }
+    .home-two-abt .abt-detail p .line-break {
+        display: none;
+    }
+    .home-two-abt .abt-shape-right {
+        height: 100px;
+        width: 100px;
+        bottom: 5%;
+    }
+    .home-two-abt .abt-shape-right img {
+        width: 100%;
+    }
+    .home-two-filter {
+        padding: 100px 0 52px 0;
+    }
+    .home-two-filter .slick-prev.pull-left.slick-arrow {
+        left: 41%;
+        bottom: -8px;
+    }
+    .home-two-filter .slick-next.pull-right.slick-arrow {
+        left: 51%;
+        bottom: -8px;
+    }
+    .home-two-course {
+        padding-bottom: 51px;
+    }
+    .home-two-counter {
+        background-size: cover;
+    }
+    .home-two-counter .counter-container {
+        padding: 80px 40px;
+    }
+    .home-two-testimonial {
+        padding: 35px 0 0 0;
+    }
+    .home-two-testimonial .single-testimonial .author-quote {
+        padding: 0;
+    }
+    .home-two-blog {
+        padding: 30px 0 69px 0;
+    }
+    .home-two-blog .section-title {
+        padding: 0;
+    }
+    .home-two-blog .blog-metadata a {
+        margin-left: 16px;
+    }
+    .home-two-footer-form form {
+        width: 96%;
+    }
+    .footer-two-form-upper-margin {
+        margin-top: 7px;
+    }
+    .home-two-footer-form::before {
+        height: 95px;
+        width: 100%;
+        left: 0%;
+        top: -14%;
+    }
+    .home-two-footer-menu {
+        text-align: center;
+    }
+    .home-two-footer-menu p {
+        margin-top: 0;
+    }
+    .small-screen-center {
+        justify-content: center;
+    }
+    .small-none {
+        display: none;
     }
     /*-------------------------------------------------------------------------------------
     Course 1 inner page
@@ -960,6 +1163,89 @@
     }
     .footer-menu p {
         margin-top: 10px;
+    }
+    /*-------------------------------------------------------------------------------------
+        Homepage 2 
+---------------------------------------------------------------------------------------*/
+    .container-padding {
+        height: 84px;
+    }
+    .home-two-header-bg ul.header-right {
+        display: none;
+    }
+    .home-two-header-bg .site-logo {
+        padding-top: 22px;
+    }
+    .home-two-header-bg .mean-container .mean-bar {
+        margin-top: 47px;
+    }
+    .home-two-header-bg .mean-container a.meanmenu-reveal {
+        margin-top: -86px;
+    }
+    .home-two {
+        height: 100vh;
+    }
+    .home-two .left-content {
+        margin-top: 231px;
+    }
+    .home-two-abt {
+        margin: 0;
+    }
+    .home-two-abt .abt-detail p .line-break {
+        display: none;
+    }
+    .home-two-abt .abt-shape-right {
+        height: 100px;
+        width: 100px;
+        bottom: 5%;
+    }
+    .home-two-abt .abt-shape-right img {
+        width: 100%;
+    }
+    .home-two-filter {
+        padding: 100px 0 52px 0;
+    }
+    .home-two-filter .slick-prev.pull-left.slick-arrow {
+        left: -6%;
+    }
+    .home-two-filter .slick-next.pull-right.slick-arrow {
+        left: 101%;
+    }
+    .home-two-course {
+        padding-bottom: 51px;
+    }
+    .home-two-counter {
+        background-size: cover;
+    }
+    .home-two-counter .counter-container {
+        padding: 80px 40px;
+    }
+    .home-two-testimonial {
+        padding: 35px 0 0 0;
+    }
+    .home-two-testimonial .single-testimonial .author-quote {
+        padding: 0;
+    }
+    .home-two-blog {
+        padding: 30px 0 69px 0;
+    }
+    .home-two-blog .blog-metadata a {
+        margin-left: 16px;
+    }
+    .home-two-footer-form form {
+        width: 96%;
+    }
+    .footer-two-form-upper-margin {
+        margin-top: 7px;
+    }
+    .home-two-footer-form::before {
+        height: 95px;
+        width: 100%;
+        left: 0%;
+        top: -14%;
+    }
+    .home-two-footer-menu p {
+        margin-top: 0;
     }
     /*-------------------------------------------------------------------------------------
     Course 1 inner page
