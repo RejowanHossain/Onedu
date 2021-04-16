@@ -6,6 +6,9 @@
 /* normal desktop */
 
 @media (min-width: 992px) and (max-width: 1200px) {
+    .about {
+        padding: 96px 0 106px 0;
+    }
     .button {
         padding: 17px 20px;
     }
@@ -61,27 +64,19 @@
         margin-top: 40px;
     }
     .filter {
-        padding: 90px 0 200px 0;
+        padding: 116px 0 132px 0;
     }
     .filter-top-shape {
         left: 5%;
     }
-    .single-filter-btn {
-        padding: 25px 30px;
+    .none-md {
+        display: none;
     }
-    .single-filter-btn img {
-        margin-bottom: 20px;
-    }
-    .single-filter-btn span {
-        font-size: 14px;
-    }
-    .position-shape::before {
-        height: 25px;
-        width: 25px;
-        bottom: 23%;
+    .filter-bottom-left-shape {
+        margin-top: 30px;
     }
     .testimonial {
-        padding: 90px 0 90px 0;
+        padding: 130px 0 131px 0;
     }
     .testimonial .slick-prev.pull-left.slick-arrow {
         bottom: 37%;
@@ -98,7 +93,7 @@
         font-size: 17px
     }
     .instructor {
-        padding: 90px 0 90px 0;
+        padding: 115px 0 125px 0;
     }
     .instructor .slick-prev.pull-left.slick-arrow {
         left: -3%;
@@ -107,13 +102,13 @@
         left: 100%;
     }
     .newsletter {
-        padding: 90px 0 0 0;
+        padding: 130px 0 0 0;
     }
     .form-center {
         padding: 0 70px;
     }
     .blog {
-        padding: 90px 0 200px 0;
+        padding: 118px 0 155px 0;
     }
     .blog-metadata p {
         font-size: 19px;
@@ -286,6 +281,9 @@
         padding: 0;
         background: transparent;
     }
+    .small-margin {
+        margin-bottom: 24px;
+    }
     .hero {
         padding: 0;
         height: 690px;
@@ -296,6 +294,9 @@
     }
     .right-content {
         display: none;
+    }
+    .about {
+        padding: 36px 0 63px 0;
     }
     .course {
         padding: 80px 0 150px 0;
@@ -327,16 +328,22 @@
         margin-top: 40px;
     }
     .filter {
-        padding: 80px 0 190px 0;
+        padding: 77px 0 93px 0;
     }
     .filter-top-shape {
         left: 8%;
     }
     .filter-bottom-left-shape {
-        margin-top: 90px;
+        margin-top: -7px;
+    }
+    .none-md {
+        display: none;
+    }
+    .medium-none {
+        display: none;
     }
     .testimonial {
-        padding: 80px 0 80px 0;
+        padding: 77px 0 89px 0;
     }
     .testimonial-title {
         text-align: center;
@@ -353,7 +360,7 @@
         bottom: 43%;
     }
     .instructor {
-        padding: 80px 0 80px 0;
+        padding: 76px 0 85px 0;
     }
     .newsletter {
         padding: 90px 0 0 0;
@@ -380,10 +387,11 @@
         margin-top: 20px;
     }
     .blog {
-        padding: 80px 0 190px 0;
+        padding: 80px 0 184px 0;
     }
     .footer {
         padding: 80px 0 80px 0;
+        margin-top: 0px;
     }
     .footer-left {
         text-align: center;
@@ -620,6 +628,9 @@
     .small-margin {
         margin-bottom: 24px;
     }
+    .stack-mb {
+        margin-bottom: 24px;
+    }
     .course {
         padding: 80px 0 150px 0;
         margin-top: 0;
@@ -649,20 +660,20 @@
     .filter {
         padding: 80px 0 190px 0;
     }
+    .small-device-none,
+    .medium-none,
+    .none-md,
+    .smaller {
+        display: none;
+    }
     .filter-top-shape {
         left: 9%;
     }
     .filter-bottom-left-shape {
         margin-top: 90px;
     }
-    .single-filter-btn {
-        margin-bottom: 50px;
-    }
-    .single-filter-btn img {
-        margin-bottom: 18px;
-    }
-    .single-filter-btn p {
-        font-size: 20px;
+    .small-device-none {
+        display: none;
     }
     .position-shape::before {
         left: 47%;
@@ -1037,6 +1048,9 @@
     .small-margin {
         margin-bottom: 24px;
     }
+    .stack-mb {
+        margin-bottom: 24px;
+    }
     .course {
         padding: 80px 0 150px 0;
         margin-top: 0;
@@ -1069,14 +1083,10 @@
     .filter-top-shape {
         left: 9%;
     }
-    .single-filter-btn img {
-        margin-bottom: 18px;
-    }
-    .single-filter-btn p {
-        font-size: 20px;
-    }
-    .position-shape::before {
-        left: 47%;
+    .small-device-none,
+    .medium-none,
+    .none-md {
+        display: none;
     }
     .testimonial {
         padding: 80px 0 80px 0;
@@ -1206,10 +1216,10 @@
         padding: 100px 0 52px 0;
     }
     .home-two-filter .slick-prev.pull-left.slick-arrow {
-        left: -6%;
+        left: 46%;
     }
     .home-two-filter .slick-next.pull-right.slick-arrow {
-        left: 101%;
+        left: 53%;
     }
     .home-two-course {
         padding-bottom: 51px;

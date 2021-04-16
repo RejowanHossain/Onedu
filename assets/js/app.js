@@ -2,12 +2,33 @@
     "use strict";
     $(document).ready(function() {
         /*---------------------------------------------------
-            smooth scroll 
+            Isotop filter course 
         ----------------------------------------------------*/
-        var scroll = new SmoothScroll('a[href*="#"]');
+        var $grid = $('.course-filter-items').isotope({
+            // options
+        });
+        // filter items on button click
+        $('.filter-course-menu').on('click', 'li', function() {
+            var filterValue = $(this).attr('data-filter');
+            $grid.isotope({ filter: filterValue });
+        });
+        // filter items on button active state
+        $('.filter-course-menu').on('click', 'li', function() {
 
+            const list = document.querySelectorAll(".filter-course-menu li");
 
+            list.forEach(function(e) {
+                e.addEventListener("click", function() {
 
+                    for (let x = 0; x < list.length; x++) {
+                        list[x].classList.remove("active-li-btn");
+                    }
+                    this.classList.add("active-li-btn");
+
+                })
+            })
+
+        });
 
         /*---------------------------------------------------
             mobile menu 
@@ -16,21 +37,6 @@
             meanMenuContainer: '.mobile-menu',
             meanScreenWidth: "992"
         });
-        /*---------------------------------------------------
-            sticky menu
-        ----------------------------------------------------*/
-
-        // $(window).on("scroll", function() {
-        //     if ($(window).scrollTop()) {
-        //         $(".header").addClass("black");
-        //     } else {
-        //         $(".header").removeClass("black");
-        //     }
-        // });
-        /*---------------------------------------------------
-            counter js
-        ----------------------------------------------------*/
-        // $('.counter').counterUp();
 
 
         /*---------------------------------------------------
@@ -181,7 +187,7 @@
                     breakpoint: 1024,
                     settings: {
                         slidesToShow: 3,
-                        slidesToScroll: 3,
+                        slidesToScroll: 1,
                         infinite: true,
                         dots: false
                     }
@@ -198,14 +204,14 @@
                 {
                     breakpoint: 700,
                     settings: {
-                        slidesToShow: 2,
+                        slidesToShow: 3,
                         slidesToScroll: 1
                     }
                 },
                 {
                     breakpoint: 480,
                     settings: {
-                        slidesToShow: 1,
+                        slidesToShow: 2,
                         slidesToScroll: 1
                     }
                 }
@@ -376,7 +382,7 @@
             arrows: true,
             prevArrow: "<button type='button' class='slick-prev pull-left'><i class='fa fa-arrow-left' aria-hidden='true'></i></button>",
             nextArrow: "<button type='button' class='slick-next pull-right'><i class='fa fa-arrow-right' aria-hidden='true'></i></button>",
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 2000,
             speed: 500,
             slidesToShow: 3,
@@ -422,17 +428,6 @@
 
 
     });
-    /*---------------------------------------------------
-        sticky header
-    ----------------------------------------------------*/
-    // $(window).on('scroll', function() {
-    //     var scroll = $(window).scrollTop();
-    //     if (scroll < 100) {
-    //         $(".mainmenu").removeClass("sticky");
-    //     } else {
-    //         $(".mainmenu").addClass("sticky");
-    //     }
-    // });
 
 
     /*---------------------------------------------------
@@ -465,12 +460,6 @@
 
 
     })
-
-    /*---------------------------------------------------
-        nice select
-    ----------------------------------------------------*/
-    $('select').niceSelect();
-
 
     /*---------------------------------------------------
        video popup
@@ -511,4 +500,10 @@
             srcAction: 'iframe_src', // Templating object key. First part defines CSS selector, second attribute. "iframe_src" means: find "iframe" and set attribute "src".
         }
     });
+
+    /*---------------------------------------------------
+        nice select
+    ----------------------------------------------------*/
+    $('select').niceSelect();
+
 }(jQuery));
